@@ -8,4 +8,30 @@
 
 .container {
   max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+}
+
+.header__item {
+  margin-right: 131px;
+}
+
+.header__link {
+  line-height: 88px;
+  color: #fff;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
 }/*# sourceMappingURL=main.css.map */

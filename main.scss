@@ -9,14 +9,27 @@
 }
 .container {
   max-width: 1280px;
+  margin: 0 auto;
 }
 .header-nav {
+  display: flex;
+  justify-content: space-between;
+  // align-items: center;
+  height: 100px;
 }
-.nav-row {
+.header__list {
+  display: flex;
+  align-items: center;
 }
-.nav-row__left {
+.header__item {
+  margin-right: 131px;
 }
-.vector {
-}
-.nav-row__right {
+.header__link {
+  line-height: 88px;
+  color: #fff;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
 }
